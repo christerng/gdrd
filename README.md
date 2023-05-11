@@ -38,7 +38,7 @@ Navigate to localhost:3000/
 ## Contributors
 
 * [Christopher Terence Ng](https://www.linkedin.com/in/christerng/)
-*
+* [Raymond Lu](https://www.linkedin.com/in/raymond--lu/)
 *
 *
 *
