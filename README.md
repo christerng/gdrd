@@ -1,6 +1,6 @@
 # Green Dot Red Dot
 
-GDRD's submission for Hack Singapore 2023 Sustainability
+GDRD's submission for Hack Singapore 2023 Digital Empowerment
 
 ## Getting Started
 
