@@ -1,10 +1,11 @@
-/* import "./App.css";
-import Button from "./components/Button";
-import Alert from "./components/Alert";
-import fakeData from "./MOCK_DATA.json";
 import * as React from "react";
 import { useState } from "react";
-import { Column, useTable, useSortBy } from "react-table";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { useTable } from "react-table";
+import "./App.css";
+import fakeData from "./MOCK_DATA.json";
+import Alert from "./components/Alert";
+import Button from "./components/Button";
 
 interface Data {
   bar_id: number;
@@ -43,22 +44,31 @@ function App() {
     []
   );
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
+<<<<<<< HEAD
     useTable({ columns, data }, useSortBy);
+=======
+    useTable({ columns, data });
+>>>>>>> 9d04d5b (Admin Panel draft)
   return (
     <div className="App">
       <h1>Admin Panel</h1>
       {alertVisible && (
         <Alert onClose={() => setAlertVisibility(false)}>My Alert</Alert>
       )}
-      <Button color="secondary" onClick={() => setAlertVisibility(false)}>
-        Refresh
-      </Button>
-      <div className="container">
-        <table {...getTableProps()}>
-          <thead>
-            {headerGroups.map((headerGroup) => (
+<<<<<<< HEAD
+  <Button color="secondary" onClick={() => setAlertVisibility(false)}>
+=======
+      <Button color="secondary" onClick={() => setAlertVisibility(true)}>
+>>>>>>> 9d04d5b (Admin Panel draft)
+      Refresh
+    </Button>
+    <div className="container">
+      <table {...getTableProps()}>
+        <thead>
+          {headerGroups.map((headerGroup) => (
               <tr {...headerGroup.getHeaderGroupProps()}>
                 {headerGroup.headers.map((column) => (
+<<<<<<< HEAD
                   <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                     {column.render("Header")}
                     <span>
@@ -68,45 +78,48 @@ function App() {
                           : " 🔼"
                         : ""}
                     </span>
-                  </th>
+=======
+                  <th {...column.getHeaderProps()}>
+                {column.render("Header")}
+>>>>>>> 9d04d5b (Admin Panel draft)
+              </th>
                 ))}
-              </tr>
-            ))}
-          </thead>
-          <tbody {...getTableBodyProps()}>
-            {rows.map((row) => {
-              prepareRow(row);
-              return (
-                <tr {...row.getRowProps()}>
-                  {row.cells.map((cell) => (
-                    <td {...cell.getCellProps()}> {cell.render("Cell")}</td>
-                  ))}
-                </tr>
-              );
-            })}
-          </tbody>
+            </tr>
+          ))}
+            </thead>
+            <tbody {...getTableBodyProps()}>
+              {rows.map((row) => {
+                prepareRow(row);
+                return (
+                  <tr {...row.getRowProps()}>
+                    {row.cells.map((cell) => (
+                      <td {...cell.getCellProps()}> {cell.render("Cell")}</td>
+                    ))}
+                  </tr>
+                );
+              })}
+            </tbody>
         </table>
-      </div>
     </div>
+  </div>
   );
 }
 
 export default App;
- */
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+<<<<<<< HEAD
+ * /
 
-import Home from "./Home";
-import Transpo from "./Transpo";
 import AgeCheck from "./AgeCheck";
 import AgeFail from "./AgeFail";
+import Home from "./Home";
+import OrderScreen from "./OrderScreen";
 import Select0 from "./Select0";
 import Select1 from "./Select1";
 import Select2 from "./Select2";
 import Select3 from "./Select3";
 import Select4 from "./Select4";
 import Select5 from "./Select5";
-import OrderScreen from "./OrderScreen";
+import Transpo from "./Transpo";
 
 const App = () => {
   return (
@@ -139,3 +152,5 @@ const styles = {
     padding: 0,
   },
 };
+=======
+>>>>>>> 9d04d5b (Admin Panel draft)

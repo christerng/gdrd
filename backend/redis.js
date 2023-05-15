@@ -5,7 +5,7 @@ var client = redis.createClient(
         url: process.env.REDIS_URL || 'localhost:6379',
         socket: {
             tls: true,
-            rejectUnauthorized: true,
+            rejectUnauthorized: false,
         }
     });
 
