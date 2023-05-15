@@ -6,18 +6,18 @@ GDRD's submission for Hack Singapore 2023 Digital Empowerment
 
 ### Dependencies
 
-* `node v18.16.0`
-* `npm 9.5.1`
+- `node v18.16.0`
+- `npm 9.5.1`
 
 ### Installing
 
-* Clone
+- Clone
 
 ```bash
 git clone https://github.com/christerng/gdrd.git/
 ```
 
-* Start Backend
+- Start Backend
 
 ```bash
 cd backend/
@@ -26,7 +26,7 @@ npm start
 
 Navigate to localhost:9000/
 
-* Start Frontend
+- Start Frontend
 
 ```bash
 cd frontend/
@@ -37,11 +37,11 @@ Navigate to localhost:3000/
 
 ## Contributors
 
-* [Christopher Terence Ng](https://www.linkedin.com/in/christerng/)
-* [Raymond Lu](https://www.linkedin.com/in/raymond--lu/)
-*
-*
-*
+- [Christopher Terence Ng](https://www.linkedin.com/in/christerng/)
+- [Raymond Lu](https://www.linkedin.com/in/raymond--lu/)
+-
+-
+-
 
 ## License
 
