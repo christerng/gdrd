@@ -4,7 +4,7 @@ import Alert from "./components/Alert";
 import fakeData from "./MOCK_DATA.json";
 import * as React from "react";
 import { useState } from "react";
-import { useTable } from "react-table";
+import { Column, useTable, useSortBy } from "react-table";
 
 interface Data {
   bar_id: number;
@@ -43,7 +43,7 @@ function App() {
     []
   );
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
-    useTable({ columns, data });
+    useTable({ columns, data }, useSortBy);
   return (
     <div className="App">
       <h1>Admin Panel</h1>
@@ -59,8 +59,15 @@ function App() {
             {headerGroups.map((headerGroup) => (
               <tr {...headerGroup.getHeaderGroupProps()}>
                 {headerGroup.headers.map((column) => (
-                  <th {...column.getHeaderProps()}>
+                  <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                     {column.render("Header")}
+                    <span>
+                      {column.isSorted
+                        ? column.isSortedDesc
+                          ? " 🔽"
+                          : " 🔼"
+                        : ""}
+                    </span>
                   </th>
                 ))}
               </tr>
