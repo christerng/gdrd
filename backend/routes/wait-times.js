@@ -2,7 +2,15 @@ var express = require("express");
 var router = express.Router();
 
 router.get("/", (req, res, next) => {
-    res.send("Get wait times");
+    res.send(
+        {
+            1: 100,
+            2: 200,
+            3: 300,
+            4: 400,
+            5: 500
+        }
+    );
 });
 
 module.exports = router;
