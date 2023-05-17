@@ -22,7 +22,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use("/gdrd", gdrdRouter);
 app.use("/queue-scan", queueScanRouter);
 app.use("/wait-times", waitTimesRouter);
 app.ues("volumes", volumesRouter);
