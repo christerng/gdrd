@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
 
-router.get("/", (res) => {
+router.get("/", (req, res, next) => {
     res.send("Register a queue scan");
 });
 
