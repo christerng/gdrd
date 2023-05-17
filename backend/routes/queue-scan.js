@@ -2,7 +2,7 @@ var express = require("express");
 var router = express.Router();
 
 router.post("/", (req, res, next) => {
-    res.send("Register a queue scan");
+    res.send("To be implemented...");
 });
 
 module.exports = router;
