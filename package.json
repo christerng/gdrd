@@ -1,6 +1,6 @@
 {
   "name": "backend",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./backend/bin/www"
@@ -15,7 +15,7 @@
     "redis": "^4.6.6"
   },
   "engines": {
-    "node": "12.22.9"
+    "node": "18.16.0"
   },
   "author": "christerng",
   "license": "GPL3"
