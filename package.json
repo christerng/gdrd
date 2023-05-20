@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "heroku-postbuild": "cd frontend/admin_user && npm install && npm run build && cd ../event_user && npm install && npm run build && cd ../queue_user && npm install && npm run build && cd ../staff_user && npm install && npm run build"
+    "heroku-postbuild": "cd frontend/admin_user && npm install -g && npm run build && cd ../event_user && npm install -g && npm run build && cd ../queue_user && npm install -g && npm run build && cd ../staff_user && npm install -g && npm run build"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
