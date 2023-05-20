@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "heroku-postbuild": "cd frontend/admin_user && npm install && npm run build && cd ../event_user && npm install && npm run build && cd ../queue_user && npm install && npm run build && cd ../staff_user && npm install && npm run build",
     "heroku-postbuild": "cd frontend && npm install -g && cd admin_user && npm run build && cd ../event_user && npm run build && cd ../queue_user && npm run build && cd ../staff_user && npm run build"
   },
   "dependencies": {
