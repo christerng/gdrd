@@ -1,9 +1,9 @@
 {
-  "name": "backend",
+  "name": "gdrd",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./backend/app.js"
+    "start": "cd frontend && npm run dev"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
