@@ -1,5 +1,5 @@
 var client = require('../redis');
-var express = require("express");
+var express = require('express');
 var router = express.Router();
 
 async function getAllQueueVolumes(req, res, next) {
