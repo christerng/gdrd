@@ -9,6 +9,8 @@ var client = redis.createClient(
         }
     });
 
+client.on('error', e => console.log(e));
+
 client.connect();
 
 client.set('queue:1:length', 0, { NX: true, });
