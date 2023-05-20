@@ -107,6 +107,8 @@ import Select3 from "./Select3";
 import Select4 from "./Select4";
 import Select5 from "./Select5";
 import OrderScreen from "./OrderScreen";
+import OrderSummary from "./OrderSummary";
+import OrderConf from "./OrderConf";
 
 const App = () => {
   return (
@@ -124,6 +126,8 @@ const App = () => {
           <Route path="/Select4" element={<Select4 />} />
           <Route path="/Select5" element={<Select5 />} />
           <Route path="/OrderScreen" element={<OrderScreen />} />
+          <Route path="/OrderSummary" element={<OrderSummary />} />
+          <Route path="/OrderConf" element={<OrderConf />} />
         </Routes>
       </Router>
     </div>

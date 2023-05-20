@@ -1,0 +1,270 @@
+.bar-location-zone-1-market-strx {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: PT Sans, Arial;
+    font-size: 1.143rem;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+  }
+  
+  .flex-containerx {
+    color: #000;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    flex-basis: 4%;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-items: stretch;
+    padding-right: 15px;
+    font-family: Roboto, Arial;
+    font-size: 1.071rem;
+    font-weight: 500;
+    display: flex;
+  }
+  
+  .systemstatus-barx {
+    width: 375px;
+    height: 35px;
+    margin-bottom: -30px;
+  }
+  
+  .cat-absolute-containerx {
+    z-index: 1;
+    width: 100%;
+    flex-direction: row;
+    flex-basis: 100%;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 37px;
+    display: flex;
+  }
+
+  .num-1222x {
+    align-self: center;
+    margin-top: 2px;
+  }
+  
+  .nav-barx {
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: center;
+    margin-right: 0px;
+    display: flex;
+  }
+  
+  .sports-barx {
+    position: fixed;
+    top: 45px;
+    left: 325px;
+    width: 28px;
+    height: 28px;
+    align-self: center;
+
+  }
+  
+  .local-mallx {
+    height: 50%;
+    flex-direction: row;
+    flex-basis: 6%;
+    align-self: center;
+    margin-bottom: 2px;
+    margin-right: -651px;
+    display: flex;
+  }
+  
+  .menux {
+    position: fixed;
+    top: 45px;
+    left: 40px;
+    width: 28px;
+    height: 28px;
+  }
+  
+  .heineken-logo-pngx {
+    position: fixed;
+    top: 37px;
+    left: 150px;
+    width: 82px;
+    height: 43px;
+    background-position: center;
+    margin-bottom: 1px;
+    margin-right: -635px;
+  }
+  
+  .rectangle-7x {
+    position: fixed;
+    top: 35px;
+    left: 0px;
+    width: 390px;
+    height: 48px;
+  }
+  
+  .flex-container-1x {
+    color: #0b6e29;
+    width: 100%;
+    flex-direction: column;
+    flex-basis: 30%;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: .857rem;
+    line-height: 11px;
+    display: flex;
+  }
+
+  .rectangle-bar {
+    width: 390px;
+    height: 5px;
+    background-color: #ebebebe2;
+    border-radius: 0px;
+  }
+  #rectangle-bar {
+    position: fixed;
+    top:190px;
+    left: 0px;
+  }
+
+  #rectangle-bar-1 {
+    position: fixed;
+    top:340px;
+    left: 0px;
+  }
+
+  #rectangle-bar-2 {
+    position: fixed;
+    top:400px;
+    left: 0px;
+  }
+
+  #rectangle-gr-2 {
+    position: fixed;
+    top:190px;
+    left: 95px;
+    width: 125px;
+    height: 5px;
+    background-color: #15712b;
+    border-radius: 0px;
+  }
+
+  #back-button {
+    position: fixed;
+    top:100px;
+    left: 10px;
+    width: 90px;
+    height: 35px;
+    font-size: 0.95rem;
+  }
+
+  .order-confirmed {
+    color: #15712b;
+    position: fixed;
+    top:120px;
+    left: 10px;
+    font-size: 1.1rem;
+  }
+  .summary-1{
+    color: #a2a2a2;
+    position: fixed;
+    top:170px;
+    left: 10px;
+    font-size: 0.95rem;
+    font-stretch: condensed;
+  }
+
+  .order-conf-1{
+    color: #000000;
+    position: fixed;
+    top:170px;
+    left: 100px;
+    font-size: 0.95rem;
+    font-stretch: condensed;
+  }
+
+  .all-set{
+    color: #15712b;
+    position: fixed;
+    top:215px;
+    left: 45px;
+    font-size: 1.2rem;
+  }
+.cheers {
+    position: fixed;
+    top:240px;
+    left: 130px;
+}
+  .please-display {
+    position: fixed;
+    top:373px;
+    left: 40px;
+    width: 300px;
+    color: #000000;
+    font-size: 0.9rem;
+    text-align: center;
+    font-stretch: condensed;
+  }
+  .giant-num{
+    color: #15712b;
+    position: fixed;
+    top:430px;
+    left: 70px;
+    width: 50px;
+    height: 70px;
+    border-radius:10px;
+    background-color: #b7eac4;
+    font-size: 3rem;
+    padding-top: 25px;
+    text-align:center;
+  }
+  #giant-num-1{
+    position: fixed;
+    top:430px;
+    left: 70px;
+  }
+  #giant-num-2{
+    position: fixed;
+    top:430px;
+    left: 130px;
+  }
+  #giant-num-3{
+    position: fixed;
+    top:430px;
+    left: 190px;
+  }
+  #giant-num-4{
+    position: fixed;
+    top:430px;
+    left: 250px;
+  }
+  .curr-wait{
+    color: #000000;
+    position: fixed;
+    top:515px;
+    left: 45px;
+    font-size: 1.143rem;
+  }
+
+  .time-est{
+    color: #000000;
+    font-size: 1.143rem;
+    font-weight: 300;
+  }
+
+  #home-button{
+    position: fixed;
+    top:560px;
+    left: 120px;
+    width: 140px;
+    border-radius:30px;
+  }

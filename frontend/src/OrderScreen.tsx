@@ -12,10 +12,20 @@ import imagenormal from "./assets/imagenormal.png";
 import beerPlasticCup from "./assets/beerPlasticCup.png";
 
 export default function App() {
+  var loc01 = sessionStorage.getItem("loc01");
   const navigate = useNavigate();
-  const navigateToSelect1 = () => {
-    navigate("/");
+  const navigateToOrderSummary = () => {
+    sessionStorage.setItem(
+      "var01",
+      document.getElementById("orig-count").value
+    );
+    sessionStorage.setItem(
+      "var02",
+      document.getElementById("orig-count").value * 14
+    );
+    navigate("/OrderSummary");
   };
+
   const incrementValue = () => {
     var value = parseInt(document.getElementById("orig-count").value, 10);
     value = isNaN(value) ? 0 : value;
@@ -66,7 +76,7 @@ export default function App() {
         <img className="heineken-logo-pngx" src={heinekenLogoPng} />
       </div>
       <div id="rectangle-house" className="rectangle-house">
-        <span className="location-text">Zone 4 - Portside Hawkers</span>
+        <span className="location-text">{loc01}</span>
       </div>
       <img className="image" src={image} />
       <div id="rect-1" className="rect-1"></div>
@@ -109,7 +119,11 @@ export default function App() {
       <form>
         <input className="order-count" id="zero-count" type="text" value="0" />
       </form>
-      <Button color="success" onClick={decrementValue0} idTag="add-to-cart">
+      <Button
+        color="success"
+        onClick={navigateToOrderSummary}
+        idTag="add-to-cart"
+      >
         Add to Cart
       </Button>
     </div>

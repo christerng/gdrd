@@ -11,6 +11,7 @@ import heinekenLogoPng from "./assets/heinekenLogoPng.png";
 import line from "./assets/line.svg";
 
 export default function App() {
+  sessionStorage.setItem("loc01", "Zone 1 - Coconut Grove");
   const navigate = useNavigate();
   const navigateToSelect0 = () => {
     navigate("/Select0");
@@ -26,6 +27,9 @@ export default function App() {
   };
   const navigateToSelect5 = () => {
     navigate("/Select5");
+  };
+  const navigateToOrder = () => {
+    navigate("/OrderScreen");
   };
 
   return (
@@ -73,7 +77,7 @@ export default function App() {
         Zone 4 - Orange@Empress..: &gt; 20 mins
       </Button>
 
-      <Button color="success" onClick={navigateToSelect1} idTag="cont-button">
+      <Button color="success" onClick={navigateToOrder} idTag="cont-button">
         Continue to Order
       </Button>
     </div>

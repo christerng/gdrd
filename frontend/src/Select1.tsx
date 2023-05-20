@@ -11,6 +11,7 @@ import heinekenLogoPng from "./assets/heinekenLogoPng.png";
 import line from "./assets/line.svg";
 
 export default function App() {
+  sessionStorage.setItem("loc01", "Zone 1 - Market Street");
   const navigate = useNavigate();
 
   const navigateToSelect0 = () => {
