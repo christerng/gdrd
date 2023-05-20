@@ -9,9 +9,16 @@ import rectangle7 from "./assets/rectangle7.svg";
 import heinekenLogoPng from "./assets/heinekenLogoPng.png";
 import cheers from "./assets/cheers.svg";
 
+function generate4DNumber() {
+  return Math.floor(Math.random() * 10000);
+}
+
+function pad4DNumber(number) {
+  return number.toString().padStart(4, "0");
+}
+
 export default function OrderSummary() {
-  var norm_count = sessionStorage.getItem("var01");
-  var norm_cost = sessionStorage.getItem("var02");
+  var rand_num = pad4DNumber(generate4DNumber());
   const navigate = useNavigate();
   const navigateToHome = () => {
     navigate("/");
@@ -45,16 +52,16 @@ export default function OrderSummary() {
         </span>
       </div>
       <div className="giant-num" id="giant-num-1">
-        <span>0</span>
+        <span>{rand_num.charAt(0)}</span>
       </div>
       <div className="giant-num" id="giant-num-2">
-        <span>1</span>
+        <span>{rand_num.charAt(1)}</span>
       </div>
       <div className="giant-num" id="giant-num-3">
-        <span>4</span>
+        <span>{rand_num.charAt(2)}</span>
       </div>
       <div className="giant-num" id="giant-num-4">
-        <span>5</span>
+        <span>{rand_num.charAt(3)}</span>
       </div>
       <span className="curr-wait">
         Current Waiting Time: &#160;
