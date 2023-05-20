@@ -12,9 +12,10 @@
     "http-errors": "~1.6.3",
     "jade": "^0.29.0",
     "morgan": "~1.9.1",
-    "redis": "^4.6.6",
+    "node-fetch": "^3.3.1",
     "react": "^18.2.0",
     "react-table": "^7.8.0",
+    "redis": "^4.6.6",
     "table": "^6.8.1"
   },
   "devDependencies": {
