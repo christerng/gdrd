@@ -1,17 +1,6 @@
 var redis = require('redis');
 
-var client = redis.createClient(
-    {
-        url: process.env.REDIS_TLS_URL || 'localhost:6379',
-        /*
-        socket: {
-            tls: false,
-            rejectUnauthorized: false,
-        }
-        */
-    });
-console.log(client.url);
-
+var client = redis.createClient({ url: process.env.REDIS_TLS_URL || 'localhost:6379', });
 client.on('error', e => console.log(e));
 
 client.connect();
