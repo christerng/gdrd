@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "cd frontend && npm install && npm run dev"
+    "start": "node ./backend/app.js",
+    "build": "cd frontend && npm install && npm run dev"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
