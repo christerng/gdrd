@@ -18,7 +18,14 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, './frontend/build')));
+
+// React apps
+app.use('/admin', express.static(path.join(__dirname, './frontend/admin_user/build')));
+app.use('/event', express.static(path.join(__dirname, './frontend/event_user/build')));
+app.use('/queue', express.static(path.join(__dirname, './frontend/queue_user/build')));
+app.use('/staff', express.static(path.join(__dirname, './frontend/staff_user/build')))
+
+// Internal APIs
 app.use('/api/lengths', lengthsRouter);
 app.use('/api/volumes', volumesRouter);
 app.use('/api/orders', ordersRouter);

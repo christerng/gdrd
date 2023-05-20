@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>This React App is able to access Redis</h1>
+        <h1>Hello, Event User!</h1>
         <div>Queue Lengths:</div>
         <div>1: {this.state.lengths[1]}</div>
         <div>2: {this.state.lengths[2]}</div>
@@ -25,13 +25,6 @@ class App extends Component {
         <div>5: {this.state.lengths[5]}</div>
 
         <div></div>
-
-        <div>Queue Volumes:</div>
-        <div>1: {this.state.volumes[1]}</div>
-        <div>2: {this.state.volumes[2]}</div>
-        <div>3: {this.state.volumes[3]}</div>
-        <div>4: {this.state.volumes[4]}</div>
-        <div>5: {this.state.volumes[5]}</div>
       </div>
     );
   };
