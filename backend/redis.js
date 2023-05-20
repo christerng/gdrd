@@ -13,16 +13,16 @@ client.on('error', e => console.log(e));
 
 client.connect();
 
-client.set('queue:1:length', 0, { NX: true, });
-client.set('queue:2:length', 0, { NX: true, });
-client.set('queue:3:length', 0, { NX: true, });
-client.set('queue:4:length', 0, { NX: true, });
-client.set('queue:5:length', 0, { NX: true, });
+client.set('queue:1:length', 0);
+client.set('queue:2:length', 0);
+client.set('queue:3:length', 0);
+client.set('queue:4:length', 0);
+client.set('queue:5:length', 0);
 
-client.set('queue:1:volume', 10, { NX: true, });
-client.set('queue:2:volume', 20, { NX: true, });
-client.set('queue:3:volume', 30, { NX: true, });
-client.set('queue:4:volume', 40, { NX: true, });
-client.set('queue:5:volume', 50, { NX: true, });
+client.set('queue:1:volume', 10);
+client.set('queue:2:volume', 20);
+client.set('queue:3:volume', 30);
+client.set('queue:4:volume', 40);
+client.set('queue:5:volume', 50);
 
 module.exports = client;
