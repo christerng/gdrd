@@ -9,7 +9,7 @@ var path = require('path');
 var indexRouter = require('./api/index');
 var lengthsRouter = require('./api/lengths');
 var volumesRouter = require('./api/volumes');
-var orderRouter = require('./api/order');
+var orderRouter = require('./api/orders');
 
 var app = express();
 
