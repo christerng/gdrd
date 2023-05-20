@@ -3,7 +3,7 @@ import './App.css';
 
 class App extends Component {
   // Initialize state
-  state = { passwords: [] }
+  state = { passwords: {} }
 
   // Fetch passwords after first mount
   componentDidMount() {
