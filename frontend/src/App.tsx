@@ -1,4 +1,4 @@
-import "./App.css";
+/* import "./App.css";
 import Button from "./components/Button";
 import Alert from "./components/Alert";
 import fakeData from "./MOCK_DATA.json";
@@ -92,3 +92,50 @@ function App() {
 }
 
 export default App;
+ */
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "./Home";
+import Transpo from "./Transpo";
+import AgeCheck from "./AgeCheck";
+import AgeFail from "./AgeFail";
+import Select0 from "./Select0";
+import Select1 from "./Select1";
+import Select2 from "./Select2";
+import Select3 from "./Select3";
+import Select4 from "./Select4";
+import Select5 from "./Select5";
+import OrderScreen from "./OrderScreen";
+
+const App = () => {
+  return (
+    <div style={styles.app}>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Transpo" element={<Transpo />} />
+          <Route path="/AgeCheck" element={<AgeCheck />} />
+          <Route path="/AgeFail" element={<AgeFail />} />
+          <Route path="/Select0" element={<Select0 />} />
+          <Route path="/Select1" element={<Select1 />} />
+          <Route path="/Select2" element={<Select2 />} />
+          <Route path="/Select3" element={<Select3 />} />
+          <Route path="/Select4" element={<Select4 />} />
+          <Route path="/Select5" element={<Select5 />} />
+          <Route path="/OrderScreen" element={<OrderScreen />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+};
+
+export default App;
+
+// Kindacode.com
+// Just some styling
+const styles = {
+  app: {
+    padding: 0,
+  },
+};

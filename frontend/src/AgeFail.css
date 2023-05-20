@@ -1,0 +1,169 @@
+.main-page-getting-home {
+    text-align: center;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-family: Roboto, Arial;
+    font-size: 1.143rem;
+    font-weight: 500;
+    line-height: 21px;
+    display: flex;
+  }
+  
+  .flex-container {
+    width: 100%;
+    flex-direction: column;
+    flex-basis: 4%;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-items: stretch;
+    margin-bottom: 2px;
+    padding-right: 15px;
+    font-size: 1.071rem;
+    line-height: 20px;
+    display: flex;
+  }
+  
+  .systemstatus-bar {
+    width: 375px;
+    height: 35px;
+    margin-bottom: -30px;
+  }
+  
+  .cat-absolute-container {
+    z-index: 1;
+    width: 100%;
+    flex-direction: row;
+    flex-basis: 100%;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 37px;
+    display: flex;
+  }
+  
+  .num-1222 {
+    align-self: center;
+    margin-top: 2px;
+  }
+  
+  .flex-container-1 {
+    color: #0b6e29;
+    width: 100%;
+    flex-direction: column;
+    flex-basis: 78%;
+    justify-content: space-between;
+    font-family: PT Sans, Arial;
+    font-weight: 700;
+    display: flex;
+  }
+  
+  .rectangle {
+    position: fixed;
+    top: 35px;
+    left: 0px;
+    width: 390px;
+    height: 682px;
+    margin-bottom: -682px;
+    /*padding-top: 80px;*/
+  }
+  
+  .cat-absolute-container-1 {
+    z-index: 1;
+    width: 100%;
+    flex-direction: column;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    align-items: center;
+    padding-bottom: 54px;
+    display: flex;
+  }
+  
+  .heineken-logo-png {
+    position: fixed;
+    top: 58px;
+    left: 92px;
+    width: 200px;
+    height: 115px;
+    background-position: center;
+    margin-bottom: 200x;
+  }
+  
+ 
+  .primary {
+    letter-spacing: 1px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    margin-left: -4px;
+  }
+#backbutton {
+    position: fixed;
+    width: 180px;
+    height: 40px;
+    top: 430px;
+    left: 100px;
+    border: 1px solid #0b6e29;
+    letter-spacing: 1px;
+    color:#0b6e29;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 20px;
+  }
+
+  .group {
+    position: fixed;
+    top: 200px;
+    left: 125px;
+    width: 121px;
+    height: 121px;
+    object-fit: cover;
+    align-self: center;
+    margin-left: 7px;
+  }
+  
+  .the-age-for-beer-adventures-is-y {
+    font-family: Serif;
+    position: fixed;
+    top: 325px;
+    left: 30px;
+    color: #ffffff;
+    font-weight: 6000;
+    font-size: 1.15rem;
+    width: 330px;
+    text-align: center;
+    align-self: center;
+  }
+
+  .please-note-that-the-purchase-of {
+    font-family: Arial;
+    line-height: 20px;
+    position: fixed;
+    width: 330px;
+    height: 200px;
+    left: 35px;
+    top: 500px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 0.85rem;
+    justify-content: space-between;
+  }
+
+  .are-you-18-years-old-above {
+    font-family: Serif, Arial;
+    line-height: 32px;
+    position: fixed;
+    width: 330px;
+    height: 200px;
+    left: 45px;
+    top: 250px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.42rem;
+    justify-content: space-between;
+  }
