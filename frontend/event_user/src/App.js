@@ -32,19 +32,19 @@ class App extends Component {
       </div>
       <span className="select-bar-to-orderx">Select bar to order from:</span>
       <div className="queue-1">
-        <span>Zone 1 - Market Street:&nbsp; {this.state.lengths[1]} &nbsp; in queue </span>
+        <span>Zone 1 - Market Street:&nbsp; {this.state.lengths[1]} &nbsp;in queue </span>
       </div>
       <div className="queue-2">
-        <span>Zone 1 - Coconut Grove:&nbsp; {this.state.lengths[2]} &nbsp; in queue </span>
+        <span>Zone 1 - Coconut Grove:&nbsp; {this.state.lengths[2]} &nbsp;in queue </span>
       </div>
       <div className="queue-3">
-        <span>Zone 3 - Bay Grandstand:&nbsp; {this.state.lengths[1]} &nbsp; in queue </span>
+        <span>Zone 3 - Bay Grandstand:&nbsp; {this.state.lengths[1]} &nbsp;in queue </span>
       </div>
       <div className="queue-4">
-        <span>Zone 4 - Portside Hawkers:&nbsp; {this.state.lengths[1]} &nbsp; in queue </span>
+        <span>Zone 4 - Portside Hawkers:&nbsp; {this.state.lengths[1]} &nbsp;in queue </span>
       </div>
       <div className="queue-5">
-        <span>Zone 4 - Orange@Empress..:&nbsp; {this.state.lengths[1]} &nbsp; in queue </span>
+        <span>Zone 4 - Orange@Empress..:&nbsp; {this.state.lengths[1]} &nbsp;in queue </span>
       </div>
     </div>
       </div>
