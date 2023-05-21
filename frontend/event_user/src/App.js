@@ -20,12 +20,6 @@ class App extends Component {
     return (
       <div className="App">
         <div className="bar-location-zone-1-market-strx">
-      <div className="flex-containerx">
-        <img className="systemstatus-barx" src={systemstatusBar} />
-        <div className="cat-absolute-containerx">
-          <span className="num-1222x">17:30</span>
-        </div>
-      </div>
       <div className="nav-barx">
         <img className="rectangle-7x" src={rectangle7} />
         <img className="sports-barx" src={sportsBar} />
