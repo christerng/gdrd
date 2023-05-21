@@ -4,7 +4,7 @@ import menu from "./assets/menu.svg";
 import sportsBar from "./assets/sportsBar.svg";
 import rectangle7 from "./assets/rectangle7.svg";
 import heinekenLogoPng from "./assets/heinekenLogoPng.png";
-import image from "./assets/image.png";
+import image from "./assets/image.jpg";
 import image00 from "./assets/image00.png";
 import imagenormal from "./assets/imagenormal.png";
 import beerPlasticCup from "./assets/beerPlasticCup.png";
@@ -122,7 +122,7 @@ class App extends Component {
             <label for="queue" id="q-label">Q:</label><br /><br />
               <input type="text" id="queue" name="queue" defaultValue ="1"></input><br /><br />
               <label for="volume">Volume:</label><br /><br />
-              <button type="submit" onClick = {switchScreen} id = "add-to-cart">Submit</button>
+              <button class = "button" type="submit" onClick = {switchScreen} id = "add-to-cart">Submit</button>
           </form>
           <form>
           <label for="zero-count"></label>
