@@ -5,8 +5,8 @@ import sportsBar from "./assets/sportsBar.svg";
 import rectangle7 from "./assets/rectangle7.svg";
 import heinekenLogoPng from "./assets/heinekenLogoPng.png";
 import image from "./assets/image.jpg";
-import image00 from "./assets/image00.jpg";
-import imagenormal from "./assets/imagenormal.jpg";
+import image00 from "./assets/image00.png";
+import imagenormal from "./assets/imagenormal.png";
 import beerPlasticCup from "./assets/beerPlasticCup.png";
 import cheers from "./assets/cheers.svg";
 
