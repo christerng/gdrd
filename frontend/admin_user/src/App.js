@@ -5,6 +5,7 @@ import sportsBar from "./assets/sportsBar.svg";
 import rectangle7 from "./assets/rectangle7.svg";
 import heinekenLogoPng from "./assets/heinekenLogoPng.png";
 
+document.title = "GDRD: Admin User";
 class App extends Component {
   state = { lengths: {}, volumes: {} };
 

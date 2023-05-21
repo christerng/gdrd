@@ -53,7 +53,7 @@ const switchScreen = () => {
   document.getElementById("screen-1").style.visibility="hidden";
   document.getElementById("screen-2").style.visibility="visible";
 };
-
+document.title = "GDRD: Queue User";
 class App extends Component {
   handleSubmit(event) {
     event.preventDefault();
