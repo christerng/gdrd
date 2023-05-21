@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+import menu from "./assets/menu.svg";
+import sportsBar from "./assets/sportsBar.svg";
+import rectangle7 from "./assets/rectangle7.svg";
+import heinekenLogoPng from "./assets/heinekenLogoPng.png";
 
 class App extends Component {
   handleSubmit(event) {
@@ -17,14 +21,26 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello, Staff User!</h1>
-        <form onSubmit={this.handleSubmit}>
-          <label for="queue">Queue:</label><br /><br />
-          <input type="text" id="queue" name="queue"></input><br /><br />
-          <label for="order">Order:</label><br /><br />
-          <input type="text" id="order" name="order"></input><br /><br />
-          <button type="submit">Submit</button>
-        </form>
+        <div className="bar-location-zone-1-market-strx">
+          <div className="nav-barx">
+            <img className="rectangle-7x" src={rectangle7} />
+            <img className="sports-barx" src={sportsBar} />
+            <img className="menux" src={menu} />
+            <img className="heineken-logo-pngx" src={heinekenLogoPng} />
+          </div>
+          <div id="rectangle-house" className="rectangle-house">
+            <span className="location-text">Staff View</span>
+          </div>
+          <div id="rectangle-house-2" className="rectangle-house">
+          </div>
+          <form className = "staff-form" onSubmit={this.handleSubmit}>
+            <label for="queue">Queue:</label><br /><br />
+            <input type="text" id="queue" name="queue" defaultValue="1"></input><br /><br />
+            <label for="order">Order:</label><br /><br />
+            <input type="text" id="order" name="order" defaultValue="0000"></input><br /><br />
+            <button type="submit" id="submit-butt">Submit</button>
+          </form>
+      </div>
       </div>
     );
   };
