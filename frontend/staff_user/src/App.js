@@ -17,6 +17,9 @@ class App extends Component {
       `/api/orders/queue/${queue}/order/${order}`,
       { method: 'DELETE' },
     );
+    alert("Done!");
+    document.getElementById("queue").value = "0";
+    document.getElementById("order").value = "0000";
   }
 
   render() {
@@ -36,7 +39,7 @@ class App extends Component {
           </div>
           <form className = "staff-form" onSubmit={this.handleSubmit}>
             <label for="queue">Queue:</label><br /><br />
-            <input type="text" id="queue" name="queue" defaultValue="1"></input><br /><br />
+            <input type="text" id="queue" name="queue" defaultValue="0"></input><br /><br />
             <label for="order">Order:</label><br /><br />
             <input type="text" id="order" name="order" defaultValue="0000"></input><br /><br />
             <button type="submit" id="submit-butt">Submit</button>
