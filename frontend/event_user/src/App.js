@@ -162,7 +162,7 @@ class App extends Component {
                   <span className="not-behind-the-wheels">
                     Not Behind the Wheels
                   </span>
-                  <button class="button" id="pub-transpo-button" onClick = {switchScreen5}>Valet Service</button>
+                  <button class="button" id="pub-transpo-button" onClick = {switchScreen5}>Public Transport</button>
                 </div>
               </div>
             </div>
