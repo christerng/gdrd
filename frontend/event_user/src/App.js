@@ -52,48 +52,7 @@ class App extends Component {
       <div className="queue-5">
         <span>Zone 4 - Orange@Empress..:&nbsp; {this.state.lengths[1]} &nbsp; in queue </span>
       </div>
-{/*       <Button color="light" onClick={navigateToSelect1} idTag="select-button-1">
-        Zone 1 - Market Street: &gt; 30 mins
-      </Button>
-      <Button color="light" onClick={navigateToSelect2} idTag="select-button-2">
-        Zone 1 - Coconut Grove: &gt; 30 mins
-      </Button>
-      <Button color="light" onClick={navigateToSelect3} idTag="select-button-3">
-        Zone 3 - Bay Grandstand: &lt; 10 mins
-      </Button>
-      <Button color="light" onClick={navigateToSelect4} idTag="select-button-4">
-        Zone 4 - Portside Hawkers: &gt; 20 mins
-      </Button>
-      <Button color="light" onClick={navigateToSelect5} idTag="select-button-5">
-        Zone 4 - Orange@Empress..: &gt; 20 mins
-      </Button> */}
     </div>
-        <table border='1'>
-          <tr>
-            <th>Queue</th>
-            <th>Length</th>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>{this.state.lengths[1]}</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>{this.state.lengths[2]}</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>{this.state.lengths[3]}</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>{this.state.lengths[4]}</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>{this.state.lengths[5]}</td>
-          </tr>
-        </table>
       </div>
     );
   };

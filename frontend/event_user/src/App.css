@@ -176,10 +176,10 @@
 .select-bar-to-orderx {
   color: #000000;
   position: fixed;
-  top: 360px;
+  top: 350px;
   left: 10px;
-  font-family: Serif, Arial;
-  font-size: 1.429rem;
+  font-family: sans-serif, Arial;
+  font-size: 1.12rem;
   font-weight: 500;
   line-height: 32px;
 }
@@ -190,6 +190,7 @@
   height: 40px;
   top: 400px;
   left: 10px;
+  font-family: sans-serif, Arial;
   border: 1px solid #0b6e29;
   letter-spacing: 1px;
   color:#0b6e29;
@@ -202,7 +203,7 @@
   position: fixed;
   width: 370px;
   height: 30px;
-  top: 400px;
+  top: 380px;
   left: 10px;
   border: 1px solid #0b6e29;
   letter-spacing: 1px;
@@ -218,7 +219,7 @@
   position: fixed;
   width: 370px;
   height: 30px;
-  top: 450px;
+  top: 430px;
   left: 10px;
   border: 1px solid #0b6e29;
   letter-spacing: 1px;
@@ -234,7 +235,7 @@
   position: fixed;
   width: 370px;
   height: 30px;
-  top: 500px;
+  top: 480px;
   left: 10px;
   border: 1px solid #0b6e29;
   letter-spacing: 1px;
@@ -250,7 +251,7 @@
   position: fixed;
   width: 370px;
   height: 30px;
-  top: 550px;
+  top: 530px;
   left: 10px;
   border: 1px solid #0b6e29;
   letter-spacing: 1px;
@@ -266,7 +267,7 @@
   position: fixed;
   width: 370px;
   height: 30px;
-  top: 600px;
+  top: 580px;
   left: 10px;
   border: 1px solid #0b6e29;
   letter-spacing: 1px;
