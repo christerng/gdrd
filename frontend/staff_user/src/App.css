@@ -38,7 +38,7 @@
 }
 
 .bar-location-zone-1-market-strx {
-  color: #11512e;
+  color: #0B6E29;
   width: 100%;
   height: 100%;
   background-color: #fff;
@@ -107,7 +107,7 @@
   width: 390px;
   height: 40px;
   background-color: #ebebebe2;
-  color: #15712b;
+  color: #0B6E29;
   border-radius: 0px;
   text-align: center;
   padding-top: 16px;
@@ -122,7 +122,7 @@
   left: 80px;
   width: 230px;
   height: 320px;
-  border-color:#15712b;
+  border-color:#0B6E29;
   background-color: #f0fff3f2;
   border-color: 15712b;
 
@@ -131,7 +131,7 @@
   position: fixed;
   top:200px;
   left: 140px;
-  border-color:#15712b;
+  border-color:#0B6E29;
 }
 
 #queue{
@@ -145,12 +145,23 @@
   font-size: 1.243rem;
   width: 100px;
 }
+.button {
+  background-color: #0B6E29; /* Green */
+  border: none;
+  color: white;
+/*   padding: 15px 15px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+/*   transition-duration: 0.4s; */
+}
 
 #submit-butt{
   position: fixed;
   top:390px;
-  left: 135px;
+  left: 133px;
   width: 120px;
   height: 40px;
-  border-radius:30px;
 }

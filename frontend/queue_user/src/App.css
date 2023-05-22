@@ -180,7 +180,7 @@
   width: 390px;
   height: 45px;
   background-color: #ebebebe2;
-  color: #15712b;
+  color: #0B6E29;
   border-radius: 0px;
   text-align: center;
   padding-top: 13px;
@@ -191,7 +191,7 @@
   width: 370px;
   height: 120px;
   background-color: #ffffffe2;
-  color: #15712b;
+  color: #0B6E29;
   border-radius: 20px;
   text-align: center;
   padding-top: 1px;
@@ -266,7 +266,7 @@
   position: fixed;
   top:445px;
   left: 280px;
-  color: #15712b;
+  color: #0B6E29;
   font-size: 1.2rem;
 }
 .zero-text {
@@ -296,7 +296,7 @@
   position: fixed;
   top:575px;
   left: 280px;
-  color: #15712b;
+  color: #0B6E29;
   font-size: 1.2rem;
 }
 
@@ -379,7 +379,8 @@
   left: 130px;
   width: 120px;
   height: 40px;
-  border-radius:30px;
+  border-radius:10px;
+  visibility:hidden;
 }
 
 .screen-2 {
@@ -540,7 +541,7 @@
   left: 0px;
   width: 390px;
   height: 5px;
-  background-color: #15712b;
+  background-color: #0B6E29;
   border-radius: 0px;
 }
 
@@ -554,7 +555,7 @@
 }
 
 .all-set{
-  color: #15712b;
+  color: #0B6E29;
   position: fixed;
   top:165px;
   left: 45px;
@@ -576,7 +577,7 @@
   font-stretch: condensed;
 }
 .giant-num{
-  color: #15712b;
+  color: #0B6E29;
   position: fixed;
   top:380px;
   left: 70px;
@@ -619,7 +620,7 @@
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #0B6E29; /* Green */
   border: none;
   color: white;
 /*   padding: 15px 15px; */

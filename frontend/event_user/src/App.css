@@ -152,7 +152,7 @@
 }
 
 .flex-container-1x {
-  color: #0b6e29;
+  color: #0B6E29;
   width: 100%;
   flex-direction: column;
   flex-basis: 30%;
@@ -385,7 +385,7 @@
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #0B6E29; /* Green */
   border: none;
   color: white;
   padding: 15px 15px;
@@ -554,7 +554,7 @@
 .button-1 {
   background-color: white; /* Green */
   border: none;
-  color: #276029;
+  color: #0B6E29;
   padding: 15px 15px;
   text-align: center;
   text-decoration: none;

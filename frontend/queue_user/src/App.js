@@ -20,12 +20,17 @@ const incrementValue = () => {
   document.getElementById("volume").value = value;
   document.getElementById("total-normal").innerHTML =
     "$" + value * 14 + ".00";
+  document.getElementById("add-to-cart").style.visibility="visible";
 };
 const decrementValue = () => {
   var value = parseInt(document.getElementById("volume").value, 10);
+  var valueb = parseInt(document.getElementById("zero-count").value, 10);
   value = isNaN(value) ? 0 : value;
   if (value > 0) {
     value--;
+  } 
+  if(value + valueb == 0) {
+    document.getElementById("add-to-cart").style.visibility="hidden";
   }
   document.getElementById("volume").value = value;
   document.getElementById("total-normal").innerHTML =
@@ -38,12 +43,17 @@ const incrementValue0 = () => {
   value++;
   document.getElementById("zero-count").value = value;
   document.getElementById("total-00").innerHTML = "$" + value * 14 + ".00";
+  document.getElementById("add-to-cart").style.visibility="visible";
 };
 const decrementValue0 = () => {
   var value = parseInt(document.getElementById("zero-count").value, 10);
+  var valueb = parseInt(document.getElementById("volume").value, 10);
   value = isNaN(value) ? 0 : value;
   if (value > 0) {
     value--;
+  }
+  if(value + valueb == 0) {
+    document.getElementById("add-to-cart").style.visibility="hidden";
   }
   document.getElementById("zero-count").value = value;
   document.getElementById("total-00").innerHTML = "$" + value * 14 + ".00";

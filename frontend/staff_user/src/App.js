@@ -42,7 +42,7 @@ class App extends Component {
             <input type="text" id="queue" name="queue" defaultValue="0"></input><br /><br />
             <label for="order">Order:</label><br /><br />
             <input type="text" id="order" name="order" defaultValue="0000"></input><br /><br />
-            <button type="submit" id="submit-butt">Submit</button>
+            <button type="submit" class ="button" id="submit-butt">Submit</button>
           </form>
       </div>
       </div>
